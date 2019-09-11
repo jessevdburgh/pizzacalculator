@@ -20,7 +20,7 @@ document.write('large € ' + large * bp + '<br><br>')
 
 var tot= small*sp + medium*mp + large*bp;
  
- if (large >7){
+ if (large >4){
  	tot= small*sp + medium*mp + large*bp -10;
  	document.write('korting - €10<br><br>');
 
