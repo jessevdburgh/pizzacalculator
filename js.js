@@ -3,29 +3,29 @@ var medium = prompt('Hoeveel medium pizzas wilt u')
 var large = prompt('Hoeveel large pizzas wilt u')
 
 
-document.write('Bestellijst:<br>')
-document.write('Small: ' + small  +'<br>')
-document.write('Medium: ' + medium +'<br>')
-document.write('Large: ' + large  +'<br><br>')
+document.write('<div>Bestellijst:</div><br>')
+document.write('<div>Small: ' + small  + '</div><br>')
+document.write('<div>Medium: ' + medium +'</div><br>')
+document.write('<div>Large: ' + large  +'</div><br><br>')
 
-var sp =  5;
-var mp = 10;
-var bp = 15;
+var sp =  4.99;
+var mp = 9.99;
+var bp = 14.99;
 
 
-document.write('prijslijst:<br>')
-document.write('small € ' + small * sp + '<br>')
-document.write('medium € ' + medium * mp + '<br>')
-document.write('large € ' + large * bp + '<br><br>')
+document.write('<div><prijslijst:<br></div.')
+document.write('<div>small € ' + small * sp + '</div><br>')
+document.write('<div>medium € ' + medium * mp + '</div><br>')
+document.write('<div>large € ' + large * bp + '</div><br><br>')
 
 var tot= small*sp + medium*mp + large*bp;
  
  if (large >4){
  	tot= small*sp + medium*mp + large*bp -10;
- 	document.write('korting - €10<br><br>');
+ 	document.write('<div>korting - €10</div><br><br>');
 
  }
 
  
 
-document.write('totaal prijs: €'+ tot)
+document.write('<div>totaal prijs: €'+ tot)
